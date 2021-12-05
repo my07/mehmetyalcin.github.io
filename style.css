@@ -138,8 +138,21 @@ section:last-child {
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
-	margin-bottom: 3px;
+	margin-bottom: 3px
 }
+
+.flex {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subDetailsBold{
+	font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
 
 .keySkills {
 	list-style-type: none;
